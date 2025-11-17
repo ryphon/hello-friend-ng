@@ -186,7 +186,7 @@ If you need another one, just open an issue or create a pull request with your w
 
 ## Known issues
 
-There is a bug in Hugo that sometimes causes the main page not to render correctly. The reason is an empty taxonomy part.
+There is a bug in Hugo that sometimes causes the main page not to render correctly. The reason is an taxonomy part with empty entries.
 Related issue tickets: [!14](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues/14) [!59](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues/59).
 
 Either you comment it out completely or you write the following in
@@ -195,6 +195,12 @@ Either you comment it out completely or you write the following in
 [taxonomies]
   tag      = "tags"
   category = "categories"
+```
+
+In case you'd like to actually have an empty taxonomy, you can do so by specifying the following (i.e. without adding any entries to the taxonomy part):
+
+``` toml
+[taxonomies]
 ```
 
 ## How to edit the theme
