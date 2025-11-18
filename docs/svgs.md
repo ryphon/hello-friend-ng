@@ -6,6 +6,7 @@
 - bluesky
 - [behance](https://simpleicons.org/?q=behance)
 - [bitbucket](https://simpleicons.org/?q=bitbucket)
+- [buymeacoffee](https://simpleicons.org/?q=buymeacoffee)
 - case - generic briefcase icon for work based links
 - [codesandbox](https://simpleicons.org/?q=codesandbox)
 - [codechef](https://simpleicons.org/?q=codechef)
