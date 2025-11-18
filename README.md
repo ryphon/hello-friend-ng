@@ -123,6 +123,19 @@ pagination.pagerSize     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+  # and submenus
+  [[menu.main]]
+    identifier  = "parent"
+    name        = "Parent"
+    url         = "/parent"
+    hasChildren = true
+
+  [[menu.main]]
+    identifier  = "child"
+    name        = "Child"
+    url         = "/parent/child"
+    parent      = "parent"
 ```
 
 ## More things
@@ -214,6 +227,6 @@ If you like my work and if you think this project is worth to support it, just <
 
 ## Licence
 
-Copyright © 2019-2021 Djordje Atlialp
+Copyright © 2019-2025 Djordje Atlialp
 
 The theme is released under the MIT License. Check the [original theme license](https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.

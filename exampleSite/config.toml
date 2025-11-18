@@ -264,9 +264,17 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
+    identifier  = "about"
+    name        = "About"
+    url         = "about/"
+    hasChildren = true
+  
+  [[menu.main]]
+    identifier  = "me"
+    name        = "About Me"
+    url         = "about/me/"
+    parent      = "about"
+
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
