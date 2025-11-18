@@ -1,6 +1,7 @@
 <nav class="menu">
     <ul class="menu__inner">
         {{- $currentPage := . -}}
+<<<<<<< HEAD
         {{ range sort .Site.Menus.main ".Identifier" -}}
             {{ if .HasChildren }}
                 <div class="submenu">
@@ -16,6 +17,10 @@
             {{ else }}
                 <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
             {{ end }}
+=======
+        {{ range .Site.Menus.main -}}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+>>>>>>> parent of e78a00e (sort top menu items by identifier)
         {{- end }}
 
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
