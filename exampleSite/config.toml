@@ -115,10 +115,6 @@ disableHugoGeneratorInject = false
   customCSS = []
   customJS  = []
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
-
   # Integrate Plausible.io
   # plausibleDataDomain = 'test.com'
   # plausibleScriptSource = 'https://plausible.io/js/script.js'
